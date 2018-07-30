@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Webgis mata air kabupaten magelang</title>
+         <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- font awsome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="gallery.css">
+      <link rel="stylesheet" href="webgis.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- chart -->
+      <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script><script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+      <link rel="stylesheet" media="all" type="text/css" href="jquery-rebox.css" />
+
+
+		<!-- <script type="text/javascript" src="lib/zepto.min.js"></script> -->
+		
+      <style type="text/css">
+        body,img,p,h1,h2,h3,h4,h5,h6,form,table,td,ul,ol,li,dl,dt,dd,pre,blockquote,fieldset,label{
+            margin:0;
+            padding:0;
+            border:0;
+        }
+               .clear{ clear: both; }
+               .gallery{}
+			.gallery img{ width: 24%; }
+    </style>
+
+   </head>
+        <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="" class="navbar-brand" href="#">
+                            <img src="logo.png" alt="Logo" style="width: 40px;">
+                            Dinas Lingkungan Hidup Kab. Magelang
+                      </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        
+             
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="webgis.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">Gambar Peta</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Download Laporan </a>
+                          </li>
+                        </ul>
+      
+                </div>
+              </nav>
+                <!-- end of navbar -->
+
+                <div class="container">
+                        <div>
+                            <div class="row" style="margin-top:30px;">
+                                    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <h1 class="gallery-title">Peta Analisis</h1>
+                                    </div>
+                            <div id="gallery3" class="gallery">
+                                <a href="media/PETA JARINGAN JALAN.jpg" title="Peta Jaringan Jalan"><img src="media/PETA JARINGAN JALAN.jpg" /></a>
+                                <a href="media/PETA JARINGAN JALAN-1.jpg" title="Peta Jaringan Jalan"><img src="media/PETA JARINGAN JALAN-1.jpg" /></a>
+                                <a href="media/Peta Kontur.jpg" title="Peta Kontur"><img src="media/Peta Kontur.jpg" /></a>
+                                <a href="media/Peta Penutup Lahan 3.jpg" title="Peta Penutupan Lahan"><img src="media/Peta Penutup Lahan 3.jpg" /></a>
+                            </div>
+                            </div>
+                            <div class="row" style="margin-top:20px;">
+                                    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <h1 class="gallery-title">Peta RT/RW</h1>
+                                    </div>
+                            <div id="gallery2" class="gallery">
+                                <a href="media/I-1 (PETA 1). peta administrasi.jpg" title="I-1(PETA-1). Peta Administrasi"><img src="media/I-1 (PETA 1). peta administrasi.jpg" /></a>
+                                <a href="media/III-1 (PETA 2). peta sistem perkotaan.jpg" title="III-1(PETA-2). Peta Sistem Perkotaan"><img src="media/III-1 (PETA 2). peta sistem perkotaan.jpg" /></a>
+                                <a href="media/III-2 (PETA 3). peta pengembangan permukiman.jpg" title="III-2(PETA-3). Peta Pengembangan Perkotaan"><img src="media/III-2 (PETA 3). peta pengembangan permukiman.jpg" /></a>
+                                <a href="media/III-3 (PETA 4). peta pengembangan jl bebas hambatan.jpg" title="III-3(PETA-4). Peta Pengembangan Jalan Bebas Hambatan"><img src="media/III-3 (PETA 4). peta pengembangan jl bebas hambatan.jpg" /></a>
+                                <a href="media/III-4 (PETA 5). peta jaringan transportasii.jpg" title="III-4(PETA-5). Peta Jaringan Transportasi"><img src="media/III-4 (PETA 5). peta jaringan transportasii.jpg" /></a>
+                                <a href="media/III-6 (PETA 6). peta rencana struktur ruang.jpg" title="III-5(PETA-6). Peta Rencana Struktur Ruang"><img src="media/III-6 (PETA 6). peta rencana struktur ruang.jpg" /></a>
+                                <a href="media/IV-1.a (PETA 7). peta DAS.jpg" title="IV-1.a (PETA-7). Peta DAS"><img src="media/IV-1.a (PETA 7). peta DAS.jpg" /></a>
+                                <a href="media/IV-1.b (PETA 8). peta perlindungan kawasan setempat.jpg" title="IV-1.b (PETA-8). Peta Perlindungan Kawasan Setempat"><img src="media/IV-1.b (PETA 8). peta perlindungan kawasan setempat.jpg" /></a>
+                                <a href="media/IV-2 (PETA 9).peta kawasan lindung.jpg" title="IV-2(PETA-9). Peta Kawasan Lindung"><img src="media/IV-2 (PETA 9).peta kawasan lindung.jpg" /></a>
+                                <a href="media/IV-3.(PETA 10) peta rawan bencana.jpg" title="IV-3(PETA-10). Peta Rawan Bencana"><img src="media/IV-3.(PETA 10) peta rawan bencana.jpg" /></a>
+                                <a href="media/IV-4.   (PETA 11) skema evakuasi.jpg" title="IV-4(PETA 11). Skema Evakuasi"><img src="media/IV-4.   (PETA 11) skema evakuasi.jpg" /></a>
+                                <a href="media/IV-4. (PETA 12) peta sebaran kawasan tambang.jpg" title="IV-5(PETA-12). Peta Sebaran Kawasan Tambang"><img src="media/IV-4. (PETA 12) peta sebaran kawasan tambang.jpg" /></a>
+                                <a href="media/IV-5. (PETA 13) peta geologi.jpg" title="IV-5.(PETA13) Peta Geologi"><img src="media/IV-5. (PETA 13) peta geologi.jpg" /></a>
+                                <a href="media/IV-6. (PETA 14) peta sebaran situs wisata.jpg" title="IV-6(PETA-14). Peta Sebaran Situs Wisata"><img src="media/IV-6. (PETA 14) peta sebaran situs wisata.jpg" /></a>
+                                <a href="media/IV-7. (PETA 15) peta kawasan hankam.jpg" title="IV-7(PETA-15). Peta Kawasan Hankam"><img src="media/IV-7. (PETA 15) peta kawasan hankam.jpg" /></a>
+                                <a href="media/IV-8. (PETA 16) peta rencana pola ruang.jpg" title="IV-8(PETA-16). Peta Rencana Pola Ruang"><img src="media/IV-8. (PETA 16) peta rencana pola ruang.jpg" /></a>
+                                <a href="media/V-1. (PETA 17) peta deliniasi KSN & KSK.jpg" title="V-1 (PETA-17). Peta Deliniasi KSN & KSK"><img src="media/V-1. (PETA 17) peta deliniasi KSN & KSK.jpg" /></a>
+                                <a href="media/V-2. (PETA 18) peta kawasan strategis.jpg" title="V-2(PETA-18). Peta Kawasan Strategis"><img src="media/V-2. (PETA 18) peta kawasan strategis.jpg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+        
+                        
+    </body>
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-litelighter.js"></script>
+		<script type="text/javascript" src="jquery-rebox.js"></script>
+
+
+        <div class="footer">
+            <p>&#9400;mrojekdev | 2018</p>
+      </div>
+<script>
+     $('#gallery2').rebox({selector:'a'});
+     $('#gallery3').rebox({selector:'a'});
+</script>
+   </html>
